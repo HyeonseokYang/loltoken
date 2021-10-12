@@ -863,7 +863,7 @@ body,html {
 }
 .pg1_cur_left.dark {
 	width:32%;
-	background-image:url(../customimage/prestige1custom.jpg);
+	background-image:url(../images/pg1_left_dark.svg~2.svg);
 	transition-delay:0s;
 	transition-duration:1.2s
 }
