@@ -538,7 +538,7 @@ function() {
             p.hasClass("typing_started") || C(2) && (h.empty(), p.removeClass("typing_done"))
         },
         k = function() {
-            C(2) && (p.hasClass("typing_started") || p.hasClass("typing_done") || (p.addClass("typing_started"), h.empty().typetype("토큰작이란?", {
+            C(2) && (p.hasClass("typing_started") || p.hasClass("typing_done") || (p.addClass("typing_started"), h.empty().typetype("자주 묻는 질문", {
                 t: 78,
                 e: .05,
                 callback: function() {
@@ -582,7 +582,7 @@ function() {
     for (E.append('<nav class="slider_nav"><span class="backward"><svg xml:space="preserve" preserveAspectRatio="xMidYMax meet" viewBox="0 0 50 100"><polyline fill="none" points="50,0 15,50 50,100"/></svg></span><span class="forward"><svg xml:space="preserve" preserveAspectRatio="xMidYMax meet" viewBox="0 0 50 100"><polyline fill="none" points="0,0 35,50 0,100"/></svg></span><ul></ul></nav>'), i = 0; i < N; i++) E.children("nav").children("ul").append('<li class="slider_li_' + (i + 1) + '"><i></i></li>');
     var Y = $(".slider_nav ul li");
     Y.css("width", (102 - 2 * N) / N + "%").eq(P - 1).addClass("active"), I.each(function(e) {
-        sliderImageLand = $(this).data("image-landscape"), sliderImagePort = $(this).data("image-portrait"), sliderTitle = $(this).data("title"), sliderHref = $(this).data("href"), sliderSyntax = '<a href="' + sliderHref + '"><img class="landscape" src="' + sliderImageLand + '"><img class="portrait" src="' + sliderImagePort + '"><span></span></a><i></i><figcaption>' + sliderTitle + "</figcaption>", $(this).prepend(sliderSyntax).attr("data-index", e + 1).addClass(function() {
+        sliderImageLand = $(this).data("image-landscape"), sliderImagePort = $(this).data("image-portrait"), sliderTitle = $(this).data("title"), sliderHref = $(this).data("href"), sliderSyntax = '<img class="landscape" src="' + sliderImageLand + '"><img class="portrait" src="' + sliderImagePort + '"><span></span><i></i><figcaption>' + sliderTitle + "</figcaption>", $(this).prepend(sliderSyntax).attr("data-index", e + 1).addClass(function() {
             return 1 == P && e == N - 1 ? "prev_slide" : P === N && 0 === e ? "next_slide" : e == P - 2 ? "prev_slide" : e == P - 1 ? "current_slide" : e == P ? "next_slide" : "out_slide"
         })
     }), $(".slides i").mousedown(function() {
