@@ -3931,7 +3931,7 @@ body,html {
 }
 .monster_wrapper_right {
 	transition: none;
-    background-image: url(../custom/prestige10.jpg);
+    background-image: url(../custom/prestige10.png);
     background-position: 71%;
     background-size: cover;
     border: 5px solid purple;
