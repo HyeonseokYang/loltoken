@@ -1485,7 +1485,8 @@ body,html {
 	transform:translate3d(-280%,0,0)
 }
 .monster_wrapper_right {
-	width:15.9736vw;
+	/*width:15.9736vw;*/
+	width:40.1296vw;
 	height:21.02233vw;
 	margin-bottom:-7.92vw;
 	-webkit-transform:translate3d(380%,0,0);
@@ -1500,8 +1501,10 @@ body,html {
 	transform:translate3d(-55%,0,0)
 }
 .viewing_3.fixed.tealed .monster_wrapper_right {
-	-webkit-transform:translate3d(79%,0,0);
-	transform:translate3d(79%,0,0)
+	/*-webkit-transform:translate3d(79%,0,0);*/
+	/*transform:translate3d(79%,0,0)*/
+	-webkit-transform:translate3d(50%,0,0);
+	transform:translate3d(505%,0,0)	
 }
 .monsters {
 	position:absolute;
@@ -3407,25 +3410,14 @@ body,html {
 	animation:purpleJump 1.7s ease 3s 10;
 	transition:none;
 
-	background-image: url(../custom/prestige8.jpg);
+	background-image: url(../custom/prestige10.png);
     background-position: center;
     background-size: cover;
 	border: 5px solid purple;
     border-radius: 10px;
 
 }
-.viewing_3.fixed.purpled .monster_purple2 {
-	-webkit-animation:purpleJump 1.7s ease 3s 10;
-	animation:purpleJump 1.7s ease 3s 10;
-	transition:none;
 
-	background-image: url(../custom/prestige9.jpg);
-    background-position: center;
-    background-size: cover;
-	border: 5px solid purple;
-    border-radius: 10px;
-
-}
 
 .viewing_3.fixed.purpled #pg3_purple_leftfoot {
 	-webkit-animation:purpleLeftFoot 1.7s ease 3s 10;
@@ -3645,7 +3637,8 @@ body,html {
 		transform:translate3d(-280%,0,0)
 	}
 	.monster_wrapper_right {
-		width:37.1296vw;
+		/*width:37.1296vw;*/
+		width:80.1296vw;
 		height:48.86504vw;
 		margin-bottom:10.5vw;
 		-webkit-transform:translate3d(380%,0,0);
@@ -3938,20 +3931,13 @@ body,html {
 }
 .monster_wrapper_right {
 	transition: none;
-    background-image: url(../custom/prestige8.jpg);
+    background-image: url(../custom/prestige10.jpg);
     background-position: 71%;
     background-size: cover;
     border: 5px solid purple;
     border-radius: 10px;
 }
-.monster_wrapper_right2 {
-	transition: none;
-    background-image: url(../custom/prestige9.jpg);
-    background-position: 71%;
-    background-size: cover;
-    border: 5px solid purple;
-    border-radius: 10px;
-}
+
 .pg3_article_left{
 	width: 80vw;
     left: calc(50% - 40vw);
