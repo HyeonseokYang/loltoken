@@ -1484,6 +1484,16 @@ body,html {
 	-webkit-transform:translate3d(-280%,0,0);
 	transform:translate3d(-280%,0,0)
 }
+/*custom*/
+.monster_wrapper_right {
+	/*width:15.9736vw;*/
+	width:40.1296vw;
+	height:21.02233vw;
+	margin-bottom:-7.92vw;
+	-webkit-transform:translate3d(380%,0,0);
+	transform:translate3d(380%,0,0)
+}
+/*custom*/
 .monster_wrapper_right {
 	/*width:15.9736vw;*/
 	width:40.1296vw;
@@ -1702,8 +1712,9 @@ body,html {
 	color:#555;
 	transition:all 0s 1s
 }
+/* custom; */
 .pg3_article_left p {
-	left:3%;
+	/* left:3%;*/
 	text-align:left;
 	-webkit-transform:translateX(27%);
 	-ms-transform:translateX(27%);
@@ -3688,8 +3699,9 @@ body,html {
 		line-height:3.3vh;
 		text-align:justify
 	}
+	/* custom; */
 	.pg3_article_left p {
-		left:3%
+		/*left:3%*/
 	}
 	.pg3_article_right p {
 		right:6%
