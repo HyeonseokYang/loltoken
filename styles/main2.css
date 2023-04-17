@@ -3929,6 +3929,14 @@ body,html {
 .slides.current_slide figcaption{
 	font-family: 'IM_Hyemin-Regular';
 }
+.monster_wrapper_left {
+	transition: none;
+    background-image: url(../custom/prestige14.jpg);
+    background-position: 71%;
+    background-size: cover;
+    border: 5px solid purple;
+    border-radius: 10px;
+}
 .monster_wrapper_right {
 	transition: none;
     background-image: url(../custom/prestige14.jpg);
