@@ -3936,6 +3936,7 @@ body,html {
     background-size: cover;
     border: 5px solid purple;
     border-radius: 10px;
+    transition: transform 1.2s ease 0s;
 }
 .monster_wrapper_right {
 	transition: none;
