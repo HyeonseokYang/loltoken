@@ -1066,7 +1066,7 @@ body,html {
 	transition:transform 1.15s cubic-bezier(0,0,.42,1) 1.5s
 }
 .page_1{
-	background-image:url(../custom/prestige15.jpg);	
+	background-image:url(../custom/사이버유미.jiff);	
     background-position: center;
     background-size: cover;
     opacity: 0.35;
@@ -3421,7 +3421,7 @@ body,html {
 	animation:purpleJump 1.7s ease 3s 10;
 	transition:none;
 
-	background-image: url(../custom/prestige15.jpg);
+	background-image: url(../custom/사이버유미.jiff);
     background-position: center;
     background-size: cover;
 	border: 5px solid purple;
@@ -3943,7 +3943,7 @@ body,html {
 }
 .monster_wrapper_left {
 	transition: none;
-    background-image: url(../custom/prestige15.jpg);
+    background-image: url(../custom/사이버유미.jiff);
     background-position: 71%;
     background-size: cover;
     border: 5px solid purple;
@@ -3952,7 +3952,7 @@ body,html {
 }
 .monster_wrapper_right {
 	transition: none;
-    background-image: url(../custom/prestige16.jpg);
+    background-image: url(../custom/전투사자레오나.jpg);
     background-position: 71%;
     background-size: cover;
     border: 5px solid purple;
